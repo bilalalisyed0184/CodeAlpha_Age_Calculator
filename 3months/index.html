@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h2>Age Calculator</h2>
+
+        <div class="input-group">
+            <label for="day">Day of Birth:</label>
+            <input type="number" id="day" placeholder="Enter day" required>
+        </div>
+
+        <div class="input-group">
+            <label for="month">Month of Birth:</label>
+            <input type="number" id="month" placeholder="Enter month" required>
+        </div>
+
+        <div class="input-group">
+            <label for="year">Year of Birth:</label>
+            <input type="number" id="year" placeholder="Enter year" required>
+        </div>
+
+        <button class="btn" onclick="calculateAge()">Calculate Age</button>
+
+        <div class="result" id="result"></div>
+    </div>
+    <canvas></canvas>
+    <script src = "app.js"></script>
+</body>
+</html>
